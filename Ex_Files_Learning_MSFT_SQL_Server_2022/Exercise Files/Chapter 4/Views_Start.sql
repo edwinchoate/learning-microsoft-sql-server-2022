@@ -1,4 +1,5 @@
 -- Review WideWorldImporters order data
+CREATE VIEW dbo.OrderDetails AS
 
 SELECT Orders.CustomerID,
 	Customers.CustomerName,
